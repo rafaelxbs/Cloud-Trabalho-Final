@@ -4,6 +4,7 @@
 </h1>
 
 <h4 align="center">Cloud Computing & SRE</h4>
+Diretório: https://github.com/rafaelxbs/Cloud-Trabalho-Final
 
 ## Arquitetura solicitada
 ![arquitetura.JPG](arquitetura.JPG)
