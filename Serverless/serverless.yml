@@ -71,8 +71,8 @@ functions:
     layers:
       - {Ref: LayerDependenciesLambdaLayer}
     maximumRetryAttempts: 1
-    onError:
-      - arn:aws:sqs:us-east-1:229169531288:DLQ-Principal-${self:provider.stage}
+    ##onError:
+    ##  - arn:aws:sqs:us-east-1:229169531288:DLQ-Principal-${self:provider.stage}
     
   envia-sqs2:
     handler: handler.sqshandler2
