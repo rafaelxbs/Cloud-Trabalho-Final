@@ -5,13 +5,8 @@
 
 <h4 align="center">Cloud Computing & SRE</h4>
 
-## Funcionalidades chave
-
-* Amazon SQS - Terraform
-* Amazon SNS - Terraform
-* AWS Lambda
-* AWS API Gateway
-* AWS S3
+## Arquitetura solicitada
+![arquitetura.JPG](arquitetura.JPG)
 
 ## Como configurar o ambiente
 
