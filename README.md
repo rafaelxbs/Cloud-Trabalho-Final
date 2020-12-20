@@ -22,16 +22,17 @@ Repositório: https://github.com/rafaelxbs/Cloud-Trabalho-Final
 9. Anote os outputs, eles deverão ser substituídos no arquvio serverless.yml.
 10. Adeque as URLs e ARNs no arquivo serverless.yml, de acordo com os outputs anotados no passo 9.
 11. Utilize o comando ```cd  ~/environment/Trabalho-Final/Serverless```.
-12. Com o ambiente escolhido no passo 7, utilize o comando ```sls deploy --stage (dev ou prod)```.
-13. Anote a url gerada para a API Gateway.
-14. Faça uma assinatura para o SNS gerado no item 8, direcionando para o seu e-mail.
-15. Você receberá um e-mail para aceitar a inscrição, aceite.
-16. Crie uma chamada POST para o endereço anotado no item 13. Nesse passo, é interessante fazer repetidas chamadas, visto que a geração ou não de erro é aleatória.
-17. Observe os logs do CloudWatch.
-18. Para remover os itens criados:
-  18.1 Utilize o comando ```sls remove --stage (dev ou prod)```
-  18.2 Utilize o comando ```cd  ~/environment/Trabalho-Final/Terraform```.
-  18.3 Utilize o comando ```terraform workspace select (dev ou prod)```. Em seguida, ```terraform destroy -auto-approve```.
+12. Utilize o comando ```pip3 install -r requirements.txt -t layer```. O conteúdo da pasta precisou ser removido para não exceder o limite de armazenamento do trabalho no portal da FIAP.
+13. Com o ambiente escolhido no passo 7, utilize o comando ```sls deploy --stage (dev ou prod)```.
+14. Anote a url gerada para a API Gateway.
+15. Faça uma assinatura para o SNS gerado no item 8, direcionando para o seu e-mail.
+16. Você receberá um e-mail para aceitar a inscrição, aceite.
+17. Crie uma chamada POST para o endereço anotado no item 13. Nesse passo, é interessante fazer repetidas chamadas, visto que a geração ou não de erro é aleatória.
+18. Observe os logs do CloudWatch.
+19. Para remover os itens criados:
+  19.1 Utilize o comando ```sls remove --stage (dev ou prod)```
+  19.2 Utilize o comando ```cd  ~/environment/Trabalho-Final/Terraform```.
+  19.3 Utilize o comando ```terraform workspace select (dev ou prod)```. Em seguida, ```terraform destroy -auto-approve```.
 
 ## Créditos
 
